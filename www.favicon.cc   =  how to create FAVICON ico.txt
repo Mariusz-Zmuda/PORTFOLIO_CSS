@@ -1,0 +1,16 @@
+How to add the favicon to your page ?
+Download favicon
+Put the favicon.ico file into your webserver directory
+This favicon is an animation. Only the Firefox browser supports animated favicons yet. For that reason you need to generate an additional non-animated favicon.ico file.
+
+Add the following lines between the <head> ... </head> tags of the page:
+
+<link rel="shortcut icon" href="/PATH_TO_STATIC_FAVICON/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/PATH_TO_ANIMATED_FAVICON/favicon.ico" type="image/x-icon">
+Replace PATH_TO_STATIC_FAVICON and PATH_TO_ANIMATED_FAVICON with the correct paths
+
+
+
+
+
+https://www.favicon.cc/
